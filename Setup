@@ -31,7 +31,7 @@ if [ -e "SetupInteligente" ]; then
 fi
 
 # Baixa o script
-curl -sSL https://raw.githubusercontent.com/ready-to-goo/instalador-fluxomatic/main/SetupInteligente -o SetupInteligente
+curl -sSL https://raw.githubusercontent.com/ready-to-goo/instalador-automa-int/main/SetupInteligente -o SetupInteligente
 
 # Verifica se o download foi bem-sucedido
 if [ $? -eq 0 ]; then
