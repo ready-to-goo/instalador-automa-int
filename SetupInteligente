@@ -92,10 +92,6 @@ info_credenciais(){
 creditos_msg() {
     echo ""
     echo ""
-    echo -e "$amarelo===================================================================================================\e[0m"
-    echo -e "$amarelo=                                                                                                 $amarelo=\e[0m"
-    echo -e "$amarelo=          $branco  Gostou da instalação? Nos mande um feedback!            $amarelo=\e[0m"
-    echo -e "$amarelo===================================================================================================\e[0m"
     echo ""
     echo ""
 }
@@ -1018,6 +1014,8 @@ menu_instalador(){
     # echo -e "${amarelo}[ 0 ]${reset} -  ${branco}Testar SMTP                             "
     echo -e "${amarelo}[ 1 ]${reset} -  ${branco}Traefik & Portainer                     "
     echo -e "${amarelo}[ 2 ]${reset} -  ${branco}N8N                                     "
+    echo -e "${amarelo}[ 41 ]${reset} - ${branco}REMOVER STACK${reset}                   "
+    echo -e "${amarelo}[ 42 ]${reset} - ${branco}Sair do instalador${reset}              "
     # echo -e "${amarelo}[ 2 ]${reset} -  ${branco}Chatwoot                                ${verde}| ${reset}  ${amarelo}[ 23 ]${reset} - ${branco}Langfuse${reset}"
     # echo -e "${branco}  '-->${amarelo}[ 2.1 ]${reset} - ${branco}Chatwoot (ARM)                   ${verde}| ${reset}  ${amarelo}[ 24 ]${reset} - ${branco}Metabase${reset}"
     # echo -e "${amarelo}[ 3 ]${reset} -  ${branco}Evolution API                           ${verde}| ${reset}  ${amarelo}[ 25 ]${reset} - ${branco}Odoo${reset}"
